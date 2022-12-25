@@ -13,7 +13,7 @@
         "descripcion": "Risotto de berenjena y queso de cabra",
         "imagen": "Risotto-berenjena-queso-cabra.jpg",
         "precio": "47.00",
-        "descripcionDetallada": "Plato típico"
+        "descripcionDetallada": "Plato Típico"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "descripcion": "Mousse de arroz con leche y aroma de azahar",
         "imagen": "Mousse-de-arroz-con-leche.jpg",
         "precio": "27.50",
-        "descripcionDetallada": "Plato típico"
+        "descripcionDetallada": "Plato Típico"
     },
     {
         "id": 4,
@@ -29,6 +29,6 @@
         "descripcion": "Espárragos blancos con vinagreta de verduras y jamón ibérico",
         "imagen": "Esparragos.png",
         "precio": "37.50",
-        "descripcionDetallada": "Plato típico"
+        "descripcionDetallada": "Plato Típico"
     }
 ]
