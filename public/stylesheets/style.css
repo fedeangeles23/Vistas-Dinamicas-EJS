@@ -16,6 +16,10 @@ body {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+}
+
 hr {
   border: 0;
   border-top: 1px solid #eee;
@@ -458,6 +462,21 @@ a {
 .ps-show-inline-block {
   display: inline-block !important;
 }
+
+/* Añadido */
+
+body div .fullPage {
+  height: 100vh;
+}
+
+body footer .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+
 @media (max-width: 1205px) {
   .ps-auto {
     max-width: 95%;

@@ -53,11 +53,15 @@
           <br />
 
           <% for( let i = 0; i < menu.length; i++ ) { %> <!-- Estructura dinamica for -->
-            <h4><%= menu[i].titulo %></h4>
-            <p class="ps-text-grey">
-              <%= menu[i].descripcion %> U$S <%= menu[i].precio %>
-            </p>
-            <br />
+            <div>
+              <a href="/detalle/ <%= menu[i].id %> ">
+                <h4><%= menu[i].titulo %></h4>
+              <p class="ps-text-grey">
+                <%= menu[i].descripcion %> U$S <%= menu[i].precio %>
+              </p>
+            </a>
+            </div>
+          <br />
           <% } %>
 
         </div>

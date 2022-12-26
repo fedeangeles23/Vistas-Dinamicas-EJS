@@ -8,9 +8,12 @@ module.exports = {
         })
     },
 
-    menu: (req, res) => {
-        return res.render('detalleMenu')
+    menu: (req,res) => {
+        return res.render ('menu', {
+            menu
+        })
     },
+
     detalle: (req, res) => {
         let id = +req.params.id
         let plato = menu.find(plato => plato.id === id)
