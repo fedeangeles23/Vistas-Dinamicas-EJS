@@ -5,6 +5,9 @@
   "scripts": {
     "start": "node ./src/bin/www"
   },
+  "keywords": [],
+  "author": "Fede Angeles",
+  "license": "ISC",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
